@@ -10,6 +10,14 @@ inputs:
     description: 'Comma delimited list of issue labels. Required value either as input or in YAML header of issue template.'
     default: ''
     required: false
+  project:
+    description: 'Comma delimited list of issue project. Required value either as input or in YAML header of issue template.'
+    default: ''
+    required: false
+  labels:
+    description: 'Comma delimited list of issue labels. Required value either as input or in YAML header of issue template.'
+    default: ''
+    required: false
   title:
     description: 'Issue title. Required value either as input or in YAML header of issue template.'
     default: ''
