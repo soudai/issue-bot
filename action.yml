@@ -24,6 +24,7 @@ inputs:
   assignees:
     description: |-
       Comma delimited list of issue assignees having write access to repo, e.g. "imjohnbo, nat".
+      Assigns new issue to all assignees, or if "rotateAssignees" is set, to the next single assignee whose turn it is.
     required: false
 
   project:
